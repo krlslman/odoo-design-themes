@@ -1,0 +1,508 @@
+<odoo>
+    <template id="addons_koral_homepage" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel"
+                         style="">
+                    <div class="s_carousel carousel s_carousel_default slide" data-bs-interval="999000"
+                         id="myCarousel1666702716718" style="background-image: none;">
+                        <ol class="carousel-indicators o_we_no_overlay">
+                            <li data-bs-slide-to="0" data-bs-target="#myCarousel1666702716718" class="active"
+                                aria-current="true"/>
+                            <li data-bs-slide-to="1" data-bs-target="#myCarousel1666702716718"/>
+                            <li data-bs-slide-to="2" data-bs-target="#myCarousel1666702716718"/>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item o_colored_level pt256 pb256 oe_img_bg o_bg_img_center active"
+                                 style="background-image: url(&quot;/theme_cq/static/src/images/cover_home.jpg&quot;);"
+                                 data-name="Slide" data-bs-original-title="" title="" aria-describedby="tooltip592590">
+                                <div class="o_we_bg_filter"
+                                     style="background-image: linear-gradient(145deg, rgb(8, 30, 79) 0%, rgba(11, 218, 254, 0.35) 100%) !important;"/>
+                                <div class="oe_unremovable container">
+                                    <div class="row content" data-bs-original-title="" title=""
+                                         aria-describedby="tooltip767835">
+                                        <div class="carousel-content o_colored_level col-lg-8" style="">
+                                            <h2>
+                                                <font style="font-size: 62px;" data-bs-original-title="" title=""
+                                                      aria-describedby="tooltip795412" class="text-o-color-3">
+                                                    Codequarters
+                                                    Solutions
+                                                </font>
+                                            </h2>
+                                            <p class="lead o_default_snippet_text">
+                                                <font class="text-o-color-3">Use this snippet to presents your content
+                                                    in a
+                                                    slideshow-like format. Don't write about products or services here,
+                                                    write about solutions.
+                                                </font>
+                                            </p>
+                                            <p class="lead o_default_snippet_text">
+                                                <br/>
+                                            </p>
+                                            <p>
+                                                <a href="" class="mb-2 btn btn-outline-primary rounded-circle btn-lg"
+                                                   data-bs-original-title="" title="">
+                                                    <font class="text-o-color-3" data-bs-original-title="" title=""
+                                                          aria-describedby="tooltip865349">Discover&amp;nbsp;more
+                                                    </font>
+                                                </a>&amp;nbsp;
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item o_colored_level pb256 pt192 oe_img_bg o_bg_img_center"
+                                 style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
+                                 data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40 o_colored_level">
+                                            <h2 style="font-size: 62px;" class="o_default_snippet_text">
+                                                <font class="text-o-color-3">Codequarters Solutions2</font>
+                                            </h2>
+                                            <div class="s_hr pt8 pb24" data-snippet="s_hr" data-name="Separator">
+                                                <hr class="w-25 mx-auto"
+                                                    style="border-top-width: 1px; border-top-style: solid;"/>
+                                            </div>
+                                            <p class="lead o_default_snippet_text">
+                                                <font class="text-o-color-3">Storytelling is powerful.</font>
+                                                <br/>
+                                                <font class="text-o-color-3">It draws readers in and engages them.
+                                                </font>
+                                            </p>
+                                            <p>
+                                                <a href="/" class="btn btn-secondary mb-2 rounded-circle">
+                                                    <font class="text-o-color-3">Start your journey</font>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pt128 pb128 oe_img_bg o_bg_img_center o_colored_level"
+                                 style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
+                                 data-name="Slide">
+                                <div class="container oe_unremovable">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                            <h2>
+                                                <font style="font-size: 62px; background-color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text text-o-color-3">Codequarters
+                                                    Solutions3
+                                                </font>
+                                            </h2>
+                                            <h4>
+                                                <font style="background-color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text text-o-color-3">Good writing is
+                                                    simple,
+                                                    but not simplistic.
+                                                </font>
+                                            </h4>
+                                            <p>
+                                                <br/>
+                                            </p>
+                                            <p class="o_default_snippet_text">
+                                                <font class="text-o-color-3">Good copy starts with understanding how
+                                                    your
+                                                    product or service helps your customers. Simple words communicate
+                                                    better
+                                                    than big words and pompous language.
+                                                </font>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-bs-slide="prev" role="img"
+                           aria-label="Previous" title="Previous" href="#myCarousel1666702716718">
+                            <span class="carousel-control-prev-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">
+                                <font class="text-o-color-3">Previous</font>
+                            </span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-bs-slide="next" role="img"
+                           aria-label="Next" title="Next" href="#myCarousel1666702716718">
+                            <span class="carousel-control-next-icon"/>
+                            <span class="visually-hidden o_default_snippet_text">
+                                <font class="text-o-color-3">Next</font>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+                <section class="s_color_blocks_2 o_colored_level pt0" data-snippet="s_color_blocks_2"
+                         data-name="Big Boxes" style="background-image: none;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="text-center o_colored_level pt32 pb40 o_cc o_cc3 col-lg-6"
+                                 style="background-color: rgb(36, 86, 96) !important;" data-bs-original-title=""
+                                 title="" aria-describedby="tooltip7043">
+                                <h2>Solutions</h2>
+                                <p>Color blocks are a simple and effective way to present and highlight your content.
+                                    Choose an image or a color for the background. You can
+                                    even resize and duplicate the blocks to create your own layout. Add images or icons
+                                    to
+                                    customize the blocks.
+                                </p>
+                                <a href="#" class="mb-2 btn btn-secondary rounded-circle" data-bs-original-title=""
+                                   title="">More Details
+                                </a>
+                            </div>
+                            <div class="col-lg-6 text-center o_colored_level pb0 pt32 o_cc o_cc3"
+                                 style="background-color: rgb(36, 65, 96) !important;" data-bs-original-title=""
+                                 title="" aria-describedby="tooltip759605">
+                                <h2>Customers</h2>
+                                <p>Color blocks are a simple and effective way to present and highlight your content.
+                                    Choose an image or a color for the background. You can even
+                                    resize and duplicate the blocks to create your own layout. Add images or icons to
+                                    customize the blocks.
+                                </p>
+                                <a href="#" class="mb-2 btn btn-secondary rounded-circle" data-bs-original-title=""
+                                   title="">More Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_call_to_action pt96 pb96 o_colored_level o_cc o_cc3" data-snippet="s_call_to_action"
+                         data-name="Call to Action" style="background-color: rgb(90, 55, 129) !important;"
+                         data-bs-original-title="" title="" aria-describedby="tooltip634447">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 pb16 o_colored_level">
+                                <h3>
+                                    <b class="o_default_snippet_text">50,000+ companies</b>
+                                    run Odoo to grow their businesses. Need help?
+                                </h3>
+                                <p>Join us and make your company a better place.</p>
+                            </div>
+                            <div class="pt8 o_colored_level col-lg-3" data-bs-original-title="" title=""
+                                 aria-describedby="tooltip393471">
+                                <p style="text-align: right;">
+                                    <a class="mb-2 btn btn-secondary rounded-circle btn-lg" href="/contactus"
+                                       data-bs-original-title="" title="" target="_blank">Contact us
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                        class="s_parallax parallax bg-black-50 o_colored_level pt0 s_parallax_is_fixed s_parallax_no_overflow_hidden pb4"
+                        data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax"
+                        style="background-image: none;">
+                    <span class="s_parallax_bg oe_img_bg o_bg_img_center"
+                          style="background-image: url(&quot;/theme_cq/static/src/images/cover_home.jpg&quot;); background-position: 50% 100%;"
+                          data-original-id="525" data-original-src="/web/image/525-f6400343/cover_home.jpg"
+                          data-mimetype="image/jpeg" data-resize-width="1920" data-quality="100" data-gl-filter="custom"
+                          data-filter-options="{&quot;contrast&quot;:&quot;-30&quot;,&quot;brightness&quot;:&quot;40&quot;,&quot;sepia&quot;:&quot;0&quot;,&quot;blur&quot;:&quot;0&quot;}"/>
+                    <div class="o_we_bg_filter"
+                         style="background-image: linear-gradient(145deg, rgb(8, 30, 79) 0%, rgba(11, 218, 254, 0.35) 100%) !important;"/>
+                    <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                        <section class="s_title o_colored_level pb0 pt0 o_cc o_cc3" data-vcss="001"
+                                 data-snippet="s_title" data-name="Title"
+                                 style="background-color: rgba(255, 0, 0, 0) !important;">
+                            <div class="s_allow_columns container" style="">
+                                <h2 style="text-align: center;">
+                                    <br/>
+                                    <span style="font-weight: normal;">Our References</span>
+                                </h2>
+                            </div>
+                        </section>
+                        <section class="s_three_columns o_colored_level o_cc o_cc3 pt48 pb112" data-vcss="001"
+                                 data-snippet="s_three_columns" data-name="Columns"
+                                 style="background-image: none; background-color: rgba(255, 0, 0, 0) !important;"
+                                 data-original-title="" title="" aria-describedby="tooltip479960">
+                            <div class="container-fluid">
+                                <div class="row d-flex justify-content-center align-items-stretch">
+                                    <div class="s_col_no_bgcolor pt16 pb16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible"
+                                         style="">
+                                        <strong>
+                                        </strong>
+                                        <div class="card bg-white h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/mikropor.png" alt=""
+                                                 loading="eager" data-original-title="" title=""
+                                                 aria-describedby="tooltip884446" style="width: 100% !important;"
+                                                 data-original-id="541"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Mikropor</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300">
+                                                        For more than 30 years, it has been producing Atmospheric Air
+                                                        Filters and Compressor Air Systems, based in Ankara, with over
+                                                        500 employees.
+                                                    </span>
+                                                </p>
+                                                <p class="card-text" style="text-align: center;">&amp;nbsp;
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 pb16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible"
+                                         style="">
+                                        <div class="card bg-white h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top"
+                                                 src="/theme_cq/static/src/images/references/engie.png" alt=""
+                                                 loading="eager" style="" data-original-title="" title=""
+                                                 aria-describedby="tooltip616100" data-original-id="542"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Engie</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300;background-color: rgb(247, 249, 250)">
+                                                        Engie, a global energy company with over 150,000 employees, has
+                                                        been operating in Turkey for 40 years.​
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible pb16"
+                                         style="">
+                                        <div class="card h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top o_we_image_cropped"
+                                                 src="/theme_cq/static/src/images/references/Aydin-Orme.jpg" alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip237647"
+                                                 data-original-id="545"
+                                                 data-original-src="/web/image/545-d3b5b3b8/Aydin-Orme.jpg"
+                                                 data-mimetype="image/jpeg" style="" data-x="108.16901408450704"
+                                                 data-y="63.098591549295776" data-width="427.2676056338028"
+                                                 data-height="228.3943661971831" data-scale-x="1" data-scale-y="1"
+                                                 data-aspect-ratio="0/0" loading="eager"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Aydın Örme
+                                                    <br/>
+                                                </h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300;background-color: rgb(247, 249, 250)">
+                                                        <span style="color: rgb(33, 37, 41);background-color: rgba(255, 255, 255, 0.9)">
+                                                            Aydın Örme has been operating on&amp;nbsp;home textile
+                                                            production retailing
+                                                            for 28 years with an indoor area of 80.000 m² with over 500
+                                                            employees.</span>&amp;nbsp;
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible pb16"
+                                         style="">
+                                        <div class="card bg-white h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/rd-global.png" alt=""
+                                                 loading="eager" data-original-title="" title=""
+                                                 aria-describedby="tooltip2629" style="width: 100% !important;"
+                                                 data-original-id="546"
+                                                 data-original-src="/web/image/546-ceb23c7d/rd%20global.png"
+                                                 data-mimetype="image/png"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">RD Global</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        It carries out production and R&amp;amp;D studies on Medical
+                                                        Materials in a closed area of 5.000 m<span
+                                                            style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        ²</span>.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 pb16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible"
+                                         style="">
+                                        <div class="card bg-white h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/rd-global.png" alt=""
+                                                 loading="eager" data-original-title="" title=""
+                                                 aria-describedby="tooltip2629" style="width: 100% !important;"
+                                                 data-original-id="546"
+                                                 data-original-src="/web/image/546-ceb23c7d/rd%20global.png"
+                                                 data-mimetype="image/png"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">RD Global</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        It carries out production and R&amp;amp;D studies on Medical
+                                                        Materials in a closed area of 5.000 m<span
+                                                            style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        ²</span>.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 pb16 o_anim_zoom_in col-sm-6 col-md-4 col-lg-2 o_animate o_visible"
+                                         style="">
+                                        <div class="card bg-white h-100 rounded" style="border-radius: 8px !important;">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/rd-global.png" alt=""
+                                                 loading="eager" data-original-title="" title=""
+                                                 aria-describedby="tooltip2629" style="width: 100% !important;"
+                                                 data-original-id="546"
+                                                 data-original-src="/web/image/546-ceb23c7d/rd%20global.png"
+                                                 data-mimetype="image/png"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">RD Global</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        It carries out production and R&amp;amp;D studies on Medical
+                                                        Materials in a closed area of 5.000 m<span
+                                                            style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        ²</span>.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section class="s_title pt40 o_colored_level pb24" data-vcss="001" data-snippet="s_title"
+                         data-name="Title"
+                         style="background-color: rgb(239, 239, 240) !important; background-image: none;">
+                    <div class="s_allow_columns o_container_small">
+                        <h2 style="text-align: center;" data-bs-original-title="" title=""
+                            aria-describedby="tooltip923939">
+                            <strong>
+                                <font style="" class="text-600">
+                                    <span style="font-weight: normal;">Services</span>
+                                </font>
+                            </strong>
+                        </h2>
+                    </div>
+                </section>
+                <section class="s_features pb32 o_colored_level pt0" data-snippet="s_features" data-name="Features"
+                         style="background-color: rgb(239, 239, 240) !important; background-image: none;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pt32 pb32 text-center o_colored_level col-lg-3 o_animate o_anim_flip_in_y o_visible"
+                                 style="">
+                                <span class="fa fa-user-o m-3 shadow fa-3x rounded-circle"
+                                      style="background-color: rgb(206, 231, 247) !important;" data-bs-original-title=""
+                                      title="" aria-describedby="tooltip93028"/>
+                                <h3 class="o_default_snippet_text">Consulting</h3>
+                                <p style="text-align: center;">Professional expertise in Open Source solutions at your
+                                    disposal for your projects.
+                                </p>
+                            </div>
+                            <div class="pt32 pb32 text-center o_colored_level col-lg-3 o_animate o_visible o_anim_flip_in_y"
+                                 style="">
+                                <span class="fa fa-code m-3 rounded-circle fa-3x shadow"
+                                      style="background-color: rgb(206, 231, 247) !important;" data-bs-original-title=""
+                                      title="" aria-describedby="tooltip33605"/>
+                                <h3>Implementation</h3>
+                                <p class="o_default_snippet_text">Agile methods to implement your Open Source solutions.
+                                </p>
+                            </div>
+                            <div class="pt32 pb32 text-center o_colored_level col-lg-3 o_animate o_anim_flip_in_y o_visible"
+                                 style="">
+                                <span class="fa fa-gears m-3 shadow rounded-circle fa-3x"
+                                      style="background-color: rgb(206, 231, 247) !important;" data-bs-original-title=""
+                                      title="" aria-describedby="tooltip296891"/>
+                                <h3 class="o_default_snippet_text">Maintenance</h3>
+                                <p class="o_default_snippet_text">SLA's to run your Open Source solutions in a
+                                    sustainable
+                                    and reliable way.
+                                </p>
+                            </div>
+                            <div class="pt32 pb32 text-center o_colored_level col-lg-3 o_animate o_anim_flip_in_y o_visible"
+                                 style="">
+                                <span class="fa fa-diamond m-3 rounded-circle shadow fa-3x"
+                                      style="background-color: rgb(206, 231, 247) !important;"/>
+                                <h3 class="o_default_snippet_text">Training</h3>
+                                <p class="o_default_snippet_text">Open Source experts share their know how to improve
+                                    your
+                                    skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="s_title pt40 o_colored_level pb24" data-vcss="001" data-snippet="s_title"
+                         data-name="Title" style="background-image: none;">
+                    <div class="s_allow_columns o_container_small">
+                        <h2 style="text-align: center;" data-bs-original-title="" title=""
+                            aria-describedby="tooltip923939">
+                            <strong>
+                                <font style="" class="text-600">
+                                    <span style="font-weight: normal;">Locations</span>
+                                </font>
+                            </strong>
+                            <br/>
+                        </h2>
+                    </div>
+                </section>
+                <section class="LOCATIONS s_text_image pb32 o_colored_level pt16" data-snippet="s_image_text"
+                         data-name="Image - Text" style="background-image: none;">
+                    <div class="container">
+                        <div class="row o_grid_mode" style="" data-row-count="9">
+                            <div class="o_colored_level o_grid_item g-col-lg-7 g-height-9 col-lg-7 o_grid_item_image"
+                                 style="grid-area: 1 / 1 / 10 / 8; z-index: 1;">
+                                <img src="/theme_cq/static/src/images/locations.png"
+                                     class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="254"
+                                     data-original-src="/website/static/src/img/snippets_demo/s_image_text.jpg"
+                                     data-mimetype="image/jpeg" data-bs-original-title="" title=""
+                                     aria-describedby="tooltip113945" style=""/>
+                            </div>
+                            <div class="o_colored_level o_grid_item g-height-5 g-col-lg-3 col-lg-3"
+                                 style="z-index: 2; grid-area: 3 / 8 / 8 / 11;">
+                                <h2>
+                                </h2>
+                                <h2>130+&amp;nbsp;employees</h2>
+                                <h2>in&amp;nbsp;3&amp;nbsp;countries</h2>
+                                <h2>and&amp;nbsp;5&amp;nbsp;locations</h2>
+                                <p>
+                                    <br/>
+                                </p>
+                                <p data-bs-original-title="" title="" aria-describedby="tooltip812668">
+                                    <a href="#" class="btn btn-outline-secondary mb-2 rounded-circle">Discover more</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                        class="s_searchbar o_colored_level pt48 pb48 d-md-block d-none o_snippet_mobile_invisible o_cc o_cc2"
+                        data-snippet="s_searchbar" data-name="Search"
+                        style="background-color: rgb(239, 239, 240) !important;" data-invisible="1">
+                    <div class="o_container_small">
+                        <div class="row">
+                            <div class="o_colored_level col-lg-12" style="">
+                                <h2>Can't find what you are looking for?</h2>
+                                <p>You will get results from blog posts, products, etc</p>
+                                <form method="get" data-snippet="s_searchbar_input"
+                                      class="o_searchbar_form s_searchbar_input" action="/website/search"
+                                      data-name="Search">
+                                    <div role="search" class="input-group ">
+                                        <input type="search" name="search"
+                                               class="search-query form-control oe_search_box None"
+                                               placeholder="Search..." data-search-type="all" data-limit="5"
+                                               data-display-image="true" data-display-description="true"
+                                               data-display-extra-link="true" data-display-detail="true"
+                                               data-order-by="name asc" autocomplete="off"/>
+                                        <button type="submit" aria-label="Search" title="Search"
+                                                class="btn oe_search_button btn-primary">
+                                            <i class="oi oi-search"/>
+                                        </button>
+                                    </div>
+                                    <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

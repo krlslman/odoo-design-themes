@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="footer_snippet_button_cq" inherit_id="website.snippet_options" name="CQ Footer">
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="CQ Footer"
+                       data-customize-website-views="theme_cq.cq_template_footer"
+                       data-customize-website-variable="'cq_footer'"
+                       data-img="/website/static/src/img/snippets_options/footer_template_default.svg"/>
+        </xpath>
+    </template>
+
+    <!--FOOTER TEMPLATE VIEW-->
+    <template id="cq_template_footer" inherit_id="website.layout" name="CQ Footer" active="False">
+        <xpath expr="//div[@id='footer']" position="replace">
+
+
+            <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true"
+                 t-if="not no_footer">
+                <div class="container pt-5" style="background-image: none; position: relative;"
+                     data-bs-original-title=""
+                     title="" aria-describedby="tooltip145639">
+                    <div class="row d-flex justify-content-between">
+                        <div class="LOGO-COLUMN1 col-lg-3 pb-5">
+                            <a class="footer_home" href="">
+                                <img src="theme_cq/static/src/images/logo_CQ_2.svg" width="200px"
+                                     alt="" loading="lazy"
+                                     style=""/>
+                            </a>
+                        </div>
+                        <div id="footer-menu" class="FOOTERMENU row col-lg-9">
+                            <div class="EXP-COLUMN2 col-sm-6 col-lg-4">
+                                <h5 class="mb-6">Expertise</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/customer_journey" class="" type="internal">Customer Journeys</a>
+                                    </li>
+                                    <li>
+                                        <a href="/open_source_experts" class="" type="internal">Open Source
+                                            Experts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/partner_and_products" class="" type="internal">Partner &amp;
+                                            Products
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/network_and_membership" class="" type="internal">Network &amp;
+                                            Membership
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="COM-COLUMN3 col-sm-6 col-lg-4">
+                                <h5 class="mb-6">Company</h5>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/career" class="" type="internal">+90 312 555 44 55</a>
+                                    </li>
+                                    <li>
+                                        <a href="/career" class="" type="internal">info@codequarters.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="/about_codequarters" class="" type="internal">About Codequarters</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/locations" class="" type="internal">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="SOC-COLUMN4 col-sm-auto d-flex flex-column gap-3 justify-content-between align-items-left">
+                                <t t-call="theme_cq.s_social_media">
+<!--                                    <t t-set="_div_classes" t-valuef="col-lg-6"/>-->
+                                </t>
+                                <t t-call="theme_cq.footer_call_to_action">
+                                    <t t-add="_div_classes" t-valuef="mb-2"/>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="border-info"/>
+                    <div class="copyright d-flex justify-content-start justify-content-sm-center pb-3 small">
+
+                        <div class="d-inline-flex align-items-center gap-3 ">
+                            <div class="py-2 py-md-0 mr-3 mx-lg-0 mr-lg-6 mb-md-0"
+                                 style="border-right: gray solid 1px;padding-right: 1rem;">
+                                <p style="margin:0px">© 2022 Codequarters</p>
+                            </div>
+                            <div>
+                                <a href="/privacy_policy" class="" type="internal">Terms of Use and Privacy
+                                </a>
+                            </div>
+                            <div class="py-2 py-md-0 mr-3 mx-lg-0 mr-lg-6 mb-md-0">
+                                <a href="/cookie_preferences" class="" type="internal">Cookie Preferences</a>
+                            </div>
+                            <div class="py-2 py-md-0 mr-3 mx-lg-0 mr-lg-6 mb-md-0">
+                                <a href="/careers" class="" type="internal">Careers</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </xpath>
+    </template>
+
+</odoo>

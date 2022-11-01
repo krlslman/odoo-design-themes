@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- CALLING NAVBAR : yeni snipped butonu için -->
+    <template id="header_snippet_button_cq" inherit_id="website.snippet_options" name="CQ Navbar">
+        <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+            <we-button title="CQ Header"
+                       data-customize-website-views="theme_cq.cq_template_header"
+                       data-customize-website-variable="'cq_header'"
+                       data-img="/website/static/src/img/snippets_options/header_template_centered_logo.svg"/>
+        </xpath>
+    </template>
+
+
+    <!--NAVBAR TEMPLATE VIEW-->
+    <template id="cq_template_header" inherit_id="website.layout" name="CQ Header" active="False">
+        <xpath expr="//header//nav" position="replace">
+            <t t-call="website.navbar">
+                <div id="top_menu_container" style=""
+                     class="container justify-content-start justify-content-between">
+                    <div>
+                        <img src="/theme_cq/static/src/images/logo_CQ_1.svg" width="160px" class="img-fluid mx-auto"
+                             id="cq-footer-logo" role="img" alt="Logo Codequarters"/>
+                    </div>
+                    <!-- Navbar Collapse -->
+                    <div id="top_menu_collapse" class="p-2 collapse navbar-collapse order-last order-lg-0 ms-5 me-5"
+                         style="">
+                        <t t-call="website.navbar_nav">
+                            <t t-set="_nav_class" t-valuef="flex-grow-1"/>
+                            <!-- Menu -->
+                            <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                <t t-call="website.submenu">
+                                    <t t-set="item_class" t-valuef="nav-item"/>
+                                    <t t-set="link_class" t-valuef="nav-link"/>
+                                </t>
+                            </t>
+                        </t>
+                        <!-- Language Selector -->
+                        <t t-call="website.placeholder_header_language_selector">
+                            <t t-set="_div_classes" t-valuef="my-auto ml-lg-2"/>
+                        </t>
+                    </div>
+                    <div class="d-none d-md-flex" style="display: flex; flex-direction: row;">
+                        <!-- Search Box -->
+                        <div class="o_container_small d-inline">
+                        <div class="row">
+                            <div class="o_colored_level col-lg-12" style="">
+                                <form method="get" data-snippet="s_searchbar_input"
+                                      class="o_searchbar_form s_searchbar_input" action="/website/search"
+                                      data-name="Search">
+                                    <div role="search" class="input-group ">
+                                        <input type="search" name="search"
+                                               class="search-query form-control oe_search_box None me-2"
+                                               style="background-image: url('theme_cq/static/src/images/icons/search-icon.png'); background-size: 15px;background-repeat: no-repeat;background-position: center "
+                                               placeholder="Search..." data-search-type="all" data-limit="5"
+                                               data-display-image="true" data-display-description="true"
+                                               data-display-extra-link="true" data-display-detail="true"
+                                               data-order-by="name asc" autocomplete="off"/>
+<!--                                        <button type="submit" aria-label="Search" title="Search"-->
+<!--                                                class="btn oe_search_button btn-primary">-->
+<!--                                            <i class="oi oi-search"/>-->
+<!--                                        </button>-->
+                                    </div>
+                                    <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Call To Action -->
+                        <t t-call="theme_cq.header_call_to_action">
+    <!--                        <t t-set="_div_classes" t-valuef="ml-lg-4"/>-->
+                        </t>
+                    </div>
+
+                    <!-- Navbar Toggler -->
+                    <t t-call="website.navbar_toggler">
+                        <t t-set="_toggler_class" t-valuef="ml-auto"/>
+                    </t>
+
+                </div>
+            </t>
+        </xpath>
+    </template>
+
+
+</odoo>

@@ -1,0 +1,780 @@
+<odoo>
+    <template id="addons_koral_homepage" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section
+                        data-scroll-background-ratio="1"
+                        data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Floats/09&quot;,&quot;colors&quot;:{&quot;c1&quot;:&quot;#F1F5F0&quot;,&quot;c2&quot;:&quot;#FFFFFF&quot;,&quot;c3&quot;:&quot;#1888DC&quot;},&quot;flip&quot;:[&quot;x&quot;,&quot;y&quot;]}"
+                        style="background-image: none; background-position: 50% 0px; position: relative;"
+                        data-snippet="s_cover" data-name="Cover" data-original-title="" title=""
+                        aria-describedby="tooltip382844">
+                    <span class="s_parallax_bg oe_img_bg o_bg_img_center"
+                          style="background-image: url(&quot;/theme_cq/static/src/images/cover_home.jpg&quot;);"
+                          />
+<!--                    <div class="o_we_bg_filter"-->
+<!--                         style="background-image: linear-gradient(178deg, rgba(5, 22, 46, 0.5) 100%, rgba(138, 255, 255, 0.5) 100%) !important;"/>-->
+                    <div class="o_we_shape o_web_editor_Floats_09"
+                         style="background-image: url(&quot;/web_editor/shape/web_editor/Floats/09.svg?c1=%23F1F5F0&amp;c2=%23FFFFFF&amp;c3=%231888DC&amp;flip=xy&quot;); background-position: 0% 50%;"/>
+                    <div class="s_allow_columns container">
+                        <div class="row">
+                            <div class="o_colored_level col-lg-10 offset-lg-2 o_animate o_anim_fade_in o_visible"
+                                 style="">
+                                <h1 data-original-title="" title="" aria-describedby="tooltip743299"
+                                    style="text-align: center;">
+                                    <span aria-describedby="tooltip956273" title="" data-bs-original-title="">
+                                        <strong>5Establish the
+                                            foundation for your immediate and ongoing success with&amp;nbsp;CodeQuarters&amp;nbsp;
+                                        </strong>
+                                    </span>
+                                    <span data-original-title="" title="" aria-describedby="tooltip30188">
+                                        <strong>ERP system
+                                            service solutions
+                                        </strong>
+                                    </span>
+                                </h1>
+                                <p class="lead">
+                                    <br/>
+                                </p>
+                                <p style="text-align: center;" data-original-title="" title=""
+                                   aria-describedby="tooltip256502">
+                                    <a href="#0" class="btn btn-custom text-o-color-3 rounded-circle btn-lg"
+                                       data-original-title="" title="" data-bs-original-title=""
+                                       style="border-color: rgb(246, 246, 246); background-color: rgba(255, 0, 0, 0); border-width: 1px; border-style: solid;">
+                                        <span aria-describedby="tooltip807520" title="" data-bs-original-title="">
+                                            Disc​​over ​​​​​​m​​ore​​
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="o_scroll_button rounded-circle align-items-center justify-content-center mx-auto o_not_editable mb-4 bg-o-color-3"
+                       href="#" title="Scroll down to next section" style="">
+                        <i class="fa fa-angle-down o_animate o_anim_fade_in_up o_visible mx-auto d-block fa-3x text-o-color-1"
+                           data-original-title="" title="" aria-describedby="tooltip346169" style=""/>
+                    </a>
+                </section>
+                <section class="s_text_image o_cc o_cc2 o_colored_level pt4 pb16"
+                         data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Wavy/22&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#CEDEE7&quot;},&quot;flip&quot;:[&quot;x&quot;]}"
+                         data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                    <div class="o_we_shape o_web_editor_Wavy_22 o_second_extra_shape_mapping bg-o-color-4"
+                         style="background-image: url(&quot;/web_editor/shape/web_editor/Wavy/22.svg?c3=%23CEDEE7&amp;flip=x&quot;); background-position: 50% 100%;"/>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 o_colored_level pb72 pt48" style="" data-original-title="" title=""
+                                 aria-describedby="tooltip617730">
+                                <h2 style="text-align: center;">
+                                    <font style="color: rgb(5, 46, 97);" data-bs-original-title="" title=""
+                                          aria-describedby="tooltip817945">
+                                        <strong>We move your business processes to the digital platform.&amp;nbsp;
+                                        </strong>
+                                    </font>
+                                    <br/>
+                                </h2>
+                                <p style="text-align: center;">
+                                    We work to make your company efficient, profitable and visible.
+                                </p>
+                                <p style="text-align: right;">
+                                    <br/>
+                                </p>
+                                <p style="text-align: center;" data-original-title="" title=""
+                                   aria-describedby="tooltip219930">
+                                    <a href="#" class="mb-2 btn btn-primary rounded-circle btn-lg"
+                                       data-original-title="" title="">Learn more
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="pb16 o_colored_level rounded pt0 offset-lg-1 col-lg-5"
+                                 style="border-radius: 520px !important;">
+                                <img src="/theme_cq/static/src/images/digitaltransformation.png"
+                                     class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title=""
+                                     style=""/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_three_columns o_colored_level pt0 o_cc o_cc3 o_half_screen_height pb24"
+                         data-vcss="001" data-snippet="s_three_columns" data-name="Columns"
+                         style="background-color: rgb(206, 222, 231) !important; background-image: none;">
+                    <div class="container-fluid" style="width:80%">
+                        <div class="row d-flex align-items-stretch">
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16 o_animate o_anim_fade_in_left o_visible"
+                                 style="">
+                                <div class="card bg-white h-100 rounded shadow"
+                                     style="border-radius: 52px !important; box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px !important;">
+                                    <img class="card-img-top"
+                                         src="/theme_cq/static/src/images/partnersAndProducts.png" alt=""
+                                         loading="eager" data-original-title="" title="" aria-describedby="tooltip70906"
+                                         data-original-id="458"
+                                         data-original-src="/theme_cq/static/src/images/partnersAndProducts.png"
+                                         data-mimetype="image/png" style=""/>
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="text-align: center;">
+                                            <font class="text-o-color-1">
+                                                <strong>Partners&amp;nbsp; &amp;amp;&amp;nbsp; Products</strong>
+                                            </font>
+                                        </h3>
+                                        <p class="card-text">
+                                            <font class="text-o-color-1">We use the world's most respected new
+                                                generation software
+                                                that will provide end-to-end solutions for all your business's digital
+                                                needs
+                                                and allow us to set up a system. We get their partnerships and provide
+                                                consultancy, installation and development services.
+                                            </font>
+                                        </p>
+                                        <p class="card-text">
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16 o_animate o_anim_fade_in_up o_visible"
+                                 style="">
+                                <div class="card bg-white h-100 rounded shadow"
+                                     style="border-radius: 52px !important; box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px !important;">
+                                    <img class="card-img-top" src="/theme_cq/static/src/images/erp.png"
+                                         alt="" loading="eager" style=""/>
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="text-align: center;">
+                                            <font class="text-o-color-1">
+                                                <strong>ERP, CMS, E-Transformation</strong>
+                                            </font>
+                                            <br/>
+                                        </h3>
+                                        <p class="card-text">
+                                            <font class="text-o-color-1">We improve and develop your operations, reduce
+                                                your costs,
+                                                and provide instant information for a proactive management strategy.
+                                            </font>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16 o_animate o_anim_fade_in_right o_visible"
+                                 style="">
+                                <div class="card bg-white h-100 rounded shadow"
+                                     style="border-radius: 52px !important; box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 12px 0px !important;">
+                                    <img class="card-img-top" src="/theme_cq/static/src/images/iot.png"
+                                         alt="" loading="eager" style=""/>
+                                    <div class="card-body">
+                                        <h3 class="card-title" style="text-align: center;">
+                                            <font class="text-o-color-1">
+                                                <strong>Industry 4.0&amp;nbsp; &amp;amp;&amp;nbsp;&amp;nbsp;IoT</strong>
+                                            </font>
+                                            <br/>
+                                        </h3>
+                                        <p class="card-text">
+                                            <font class="text-o-color-1">ERP, CMS, E-TransformationWe provide the
+                                                greatest support
+                                                for your company to reach its full potential, with the systems we
+                                                designed
+                                                to combine all your resources and use them efficiently.
+                                            </font>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_picture o_cc o_cc3 o_colored_level o_half_screen_height pb24 pt16"
+                         data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/06_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#CEDEE7&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
+                         data-snippet="s_picture" data-name="Picture"
+                         style="background-image: none; position: relative;">
+                    <div class="o_we_shape o_web_editor_Origins_06_001"
+                         style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/06_001.svg?c3=%23CEDEE7&amp;c4=%23FFFFFF&quot;);"/>
+                    <div class="container">
+                        <h1 style="text-align: center;">
+                            <span class="o_animated_text o_animate o_anim_fade_in o_visible"
+                                  style="animation-duration: 0.3s !important; animation-delay: 1s !important;">
+                                <strong>
+                                    <font class="text-o-color-1">Experience our&amp;nbsp;great customer service</font>
+                                </strong>
+                            </span>
+                        </h1>
+                        <p style="text-align: center; text-align: center;">
+                            <span class="o_animated_text o_animate o_anim_fade_in o_visible"
+                                  style="animation-delay: 1s !important; animation-duration: 0.3s !important;">
+                                <font class="text-o-color-1">Shorten
+                                    the time it takes to resolve problems and avoid repetitive costs and waste of time.
+                                </font>
+                            </span>
+                        </p>
+                        <div class="row s_nb_column_fixed">
+                            <div class="o_colored_level pt0 pb0 offset-lg-3 col-lg-6 o_animate o_anim_fade_in o_visible"
+                                 style="text-align: center;">
+                                <figure class="figure">
+                                    <img src="/theme_cq/static/src/images/presentation.png"
+                                         class="figure-img padding-large o_visible o_animate o_anim_fade_in" alt=""
+                                         style="width: 100% !important;" data-shape="web_editor/basic/bsc_organic_2"
+                                         data-shape-colors=";;;;" loading="lazy" data-original-title="" title=""
+                                         aria-describedby="tooltip389117"/>
+                                    <figcaption class="figure-caption text-muted py-3">...</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                            <section class="s_references pt48 o_colored_level pb0" data-snippet="s_references" data-name="References"
+                     style="background-image: none;">
+                <div class="container-fluid">
+                    <h2 style="text-align: center;">Our References</h2>
+                    <p style="text-align: center;">We are in good company.</p>
+                    <div class="row">
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_1" class="img img-fluid mx-auto" alt=""
+                                 loading="lazy" data-original-id="264"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_1.png"
+                                 data-mimetype="image/png" data-bs-original-title="" title=""
+                                 aria-describedby="tooltip625990" style=""/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_2" class="img img-fluid mx-auto" alt=""
+                                 loading="lazy" data-original-id="265"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_2.png"
+                                 data-mimetype="image/png" style=""/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_3" class="img img-fluid mx-auto" alt=""
+                                 loading="lazy" data-original-id="266"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_3.png"
+                                 data-mimetype="image/png" style=""/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_4" class="img img-fluid mx-auto" alt=""
+                                 loading="lazy" data-original-id="267"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_4.png"
+                                 data-mimetype="image/png" style=""/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_demo_image_5" class="img img-fluid mx-auto" alt=""
+                                 loading="lazy" data-original-id="268"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_5.png"
+                                 data-mimetype="image/png" style=""/>
+                        </div>
+                        <div class="col-lg-2 pt16 pb16 o_colored_level">
+                            <img src="/web/image/website.s_reference_default_image_6" class="img img-fluid mx-auto"
+                                 alt="" loading="lazy" data-original-id="269"
+                                 data-original-src="/website/static/src/img/snippets_demo/s_references_6.png"
+                                 data-mimetype="image/png" style=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_grid_section o_colored_level pb56" data-editor-message="DROP CONTAINER HERE"
+                     data-snippet="s_grid_section" data-name="Section" style="background-image: none;">
+                <div class="s_grid_container container-fluid" data-editor-message="DROP ROWS HERE"
+                     data-snippet="s_grid_container" data-name="Container">
+                    <div class="s_grid_row row align-items-stretch" data-editor-message="DROP COLUMNS HERE"
+                         data-snippet="s_grid_row" data-name="Row">
+                        <div class="s_grid_column o_colored_level content col-2 pb0"
+                             data-editor-message="DROP CONTENT HERE" data-snippet="s_grid_column" data-name="Column"
+                             style="text-align: center;">Blanc Hill
+                        </div>
+                        <div class="s_grid_column col o_colored_level content" data-editor-message="DROP CONTENT HERE"
+                             data-snippet="s_grid_column" data-name="Column" style="text-align: center;">Sea Time
+                        </div>
+                        <div class="s_grid_column col o_colored_level content" data-editor-message="DROP CONTENT HERE"
+                             data-snippet="s_grid_column" data-name="Column" style="text-align: center;">Eshley Jud
+                        </div>
+                        <div class="s_grid_column col o_colored_level content" data-editor-message="DROP CONTENT HERE"
+                             data-snippet="s_grid_column" data-name="Column" style="text-align: center;">Blackforest
+                        </div>
+                        <div class="s_grid_column col o_colored_level content" data-editor-message="DROP CONTENT HERE"
+                             data-snippet="s_grid_column" data-name="Column" style="text-align: center;">Montreal
+                        </div>
+                        <div class="s_grid_column col o_colored_level content pt0"
+                             data-editor-message="DROP CONTENT HERE" data-snippet="s_grid_column" data-name="Column"
+                             style="text-align: center;">Simple Star
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="BRAND'1-6arası s_three_columns o_cc o_cc2 pt32 pb32 o_colored_level" data-vcss="001"
+                     data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_1"
+                                     alt="" loading="lazy" data-original-id="255"
+                                     data-original-src="/web/image/website.library_image_11" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature One</h3>
+                                    <p class="card-text o_default_snippet_text">Adapt these three columns to fit your
+                                        design need. To duplicate, delete or move columns, select the column and use the
+                                        top icons to perform your action.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_2"
+                                     alt="" loading="lazy" data-original-id="256"
+                                     data-original-src="/web/image/website.library_image_13" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature Two</h3>
+                                    <p class="card-text o_default_snippet_text">To add a fourth column, reduce the size
+                                        of these three columns using the right icon of each block. Then, duplicate one
+                                        of the columns to create a new one as a copy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_3"
+                                     alt="" loading="lazy" data-original-id="257"
+                                     data-original-src="/web/image/website.library_image_07" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature Three</h3>
+                                    <p class="card-text o_default_snippet_text">Delete the above image or replace it
+                                        with a picture that illustrates your message. Click on the picture to change its <em
+                                                class="o_default_snippet_text">rounded corner
+                                        </em> style.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_3"
+                                     alt="" loading="lazy" data-original-id="257"
+                                     data-original-src="/web/image/website.library_image_07" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature Three</h3>
+                                    <p class="card-text o_default_snippet_text">Delete the above image or replace it
+                                        with a picture that illustrates your message. Click on the picture to change its <em
+                                                class="o_default_snippet_text">rounded corner
+                                        </em> style.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_3"
+                                     alt="" loading="lazy" data-original-id="257"
+                                     data-original-src="/web/image/website.library_image_07" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature Three</h3>
+                                    <p class="card-text o_default_snippet_text">Delete the above image or replace it
+                                        with a picture that illustrates your message. Click on the picture to change its <em
+                                                class="o_default_snippet_text">rounded corner
+                                        </em> style.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_col_no_bgcolor pt16 pb16 col-lg-2">
+                            <div class="card text-bg-white h-100">
+                                <img class="card-img-top" src="/web/image/website.s_three_columns_default_image_3"
+                                     alt="" loading="lazy" data-original-id="257"
+                                     data-original-src="/web/image/website.library_image_07" data-mimetype="image/jpeg"
+                                     style=""/>
+                                <div class="card-body">
+                                    <h3 class="card-title o_default_snippet_text">Feature Three</h3>
+                                    <p class="card-text o_default_snippet_text">Delete the above image or replace it
+                                        with a picture that illustrates your message. Click on the picture to change its <em
+                                                class="o_default_snippet_text">rounded corner
+                                        </em> style.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <section class="s_text_image o_cc o_cc2 o_colored_level pt0 pb0"
+                         data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Wavy/12_001&quot;,&quot;colors&quot;:{&quot;c1&quot;:&quot;#25A283&quot;},&quot;flip&quot;:[]}"
+                         data-snippet="s_text_image" data-name="Text - Image"
+                         style="background-image: none; position: relative;" data-original-title="" title=""
+                         aria-describedby="tooltip212900">
+                    <div class="o_we_shape o_web_editor_Wavy_12_001"
+                         style="background-image: url(&quot;/web_editor/shape/web_editor/Wavy/12_001.svg?c1=%2325A283&quot;);"/>
+                    <div class="container-fluid">
+                        <div class="row align-items-center" data-original-title="" title=""
+                             aria-describedby="tooltip96131">
+                            <div class="o_colored_level offset-lg-1 col-lg-5 pt56 pb120 o_animate o_anim_fade_in_left o_visible"
+                                 data-original-title="" title="" aria-describedby="tooltip651467" style="">
+                                <h2 style="text-align: center;">
+                                    <font style="background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-2) 100%);"
+                                          class="text-gradient">
+                                    </font>
+                                    <font style="" class="text-o-color-1">
+                                        <span style="font-size: 36px;">
+                                            <strong>Why is DIGITAL TRANSFORMATION important to your company?</strong>
+                                        </span>
+                                    </font>
+                                    <font style="background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-2) 100%);"
+                                          class="text-gradient">
+                                    </font>
+                                </h2>
+                                <p style="text-align: center;margin-top:1rem;">
+                                    <span style="font-size: 18px;">
+                                        <font class="text-o-color-1">You carry out all your processes not manually, but
+                                            digitally, very
+                                        </font>
+                                    </span>
+                                    <strong>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-1">quickly
+                                            </font>
+                                        </span>
+                                    </strong>
+                                    <span style="font-size: 18px;">
+                                        <font class="text-o-color-1">with clicks.&amp;nbsp;The Digital Transformation
+                                            process also
+                                        </font>
+                                    </span>
+                                    <strong>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-1">
+                                                optimizes your operational
+                                            </font>
+                                        </span>
+                                    </strong>
+                                    <span style="font-size: 18px;">
+                                    </span>
+                                    <strong>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-1">structure</font>
+                                        </span>
+                                    </strong>
+                                    <span style="font-size: 18px;">
+                                        <font class="text-o-color-1">.&amp;nbsp;Moreover, this optimization is not
+                                            one-off, but
+                                        </font>
+                                    </span>
+                                    <strong>
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-1">
+                                                sustainable
+                                            </font>
+                                        </span>
+                                    </strong>
+                                    <span style="font-size: 18px;">
+                                        <font class="text-o-color-1">, with the advantage that all data is digital.&amp;nbsp;</font>
+                                    </span>
+                                    <br/>
+                                </p>
+                                <p style="text-align: center;">
+                                    <strong data-original-title="" title="" aria-describedby="tooltip613765">
+                                        <span style="font-size: 18px;">
+                                            <font class="text-o-color-1">You gain a clear advantage over your
+                                                competitors.
+                                            </font>
+                                        </span>
+                                    </strong>
+                                </p>
+                                <p style="text-align: center;">&amp;nbsp;
+                                    <br/>
+                                </p>
+                                <p data-original-title="" title="" aria-describedby="tooltip181163"
+                                   style="text-align:center">
+                                    <a href="#" class="mb-2 btn btn-primary rounded-circle btn-lg"
+                                       data-original-title="" title="" target="_blank" data-bs-original-title="">Learn
+                                        more
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="o_colored_level pt0 pb168 col-lg-6 o_animate o_anim_fade_in_right o_visible"
+                                 style="">
+                                <img src="/theme_cq/static/src/images/digitaltransformation2.png"
+                                     class="img img-fluid mx-auto" alt="" loading="lazy" data-original-title="" title=""
+                                     aria-describedby="tooltip36785" data-original-id="521"
+                                     data-original-src="/web/image/521-7709051c/digitaltransformation1.png"
+                                     data-mimetype="image/png" data-resize-width="962" style=""/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pb32 o_cc o_cc2 o_colored_level pt0"
+                         data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/14_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#114B5F&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
+                         data-snippet="s_image_text" data-name="Image - Text"
+                         style="background-image: none; position: relative;" data-original-title="" title=""
+                         aria-describedby="tooltip831775">
+                    <div class="o_we_shape o_web_editor_Origins_14_001"
+                         style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/14_001.svg?c3=%23114B5F&amp;c4=%23FFFFFF&quot;);"/>
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 o_colored_level pt0 pb96 o_animate o_anim_fade_in_left o_visible"
+                                 style="">
+                                <img src="/theme_cq/static/src/images/whyus.png"
+                                     class="img img-fluid mx-auto o_we_image_cropped" alt="" loading="lazy" style=""
+                                     data-original-title="" title="" aria-describedby="tooltip707563"
+                                     data-shape="web_editor/basic/bsc_square_rounded_1" data-file-name="iot.png"
+                                     data-shape-colors=";;;;" data-original-mimetype="image/png"
+                                     data-original-src="/theme_cq/static/src/images/iot.png"
+                                     data-mimetype="image/svg+xml" data-width="887.1268495239547"
+                                     data-height="569.0000000000001" data-scale-x="1" data-scale-y="1"
+                                     data-aspect-ratio="0/0"/>
+                            </div>
+                            <div class="pb16 o_colored_level col-lg-6 o_animate o_anim_fade_in_right o_visible pt0"
+                                 data-original-title="" title="" aria-describedby="tooltip549796" style="">
+                                <h2>
+                                    <font class="text-o-color-1" style="">
+                                        <strong>Why choose CODEQUARTERS&amp;nbsp;</strong>
+                                    </font>
+                                    <font style="" class="text-o-color-1">
+                                        <strong>as your digital transformation partner?</strong>
+                                    </font>
+                                    <font style="background-image: linear-gradient(135deg, var(--o-color-1) 0%, var(--o-color-2) 100%);"
+                                          class="text-gradient">
+                                    </font>
+                                    <br/>
+                                </h2>
+                                <p>
+                                    <font class="text-o-color-1">We see even the smallest work we do for your company as
+                                        the first steps of a digital
+                                        transformation process. We aim to be your solution partner in such a process.
+                                    </font>
+                                    <br/>
+                                    <br/>
+                                    <font class="text-o-color-1">We complete our work perfectly, we stick to the times
+                                        we gave at the beginning,
+                                        and thus we know that you will call us again for your evolving needs over time.
+                                    </font>
+                                    <br/>
+                                    <br/>
+                                    <font class="text-o-color-1">We see your needs and problems, as well as our own
+                                        needs and problems, as the
+                                        first step in providing a solution, to understand deeply and accurately.
+                                    </font>
+                                    <br/>
+                                </p>
+                                <p>
+                                    <span style="font-size: 18px;">
+                                        <strong>
+                                            <font class="text-o-color-1">Being known for the quality of the service we
+                                                provide is the main source
+                                                of pride for us, Codequarters team.
+                                            </font>
+                                        </strong>
+                                    </span>
+                                    <br/>
+                                </p>
+                                <p data-original-title="" title="" aria-describedby="tooltip671740">
+                                    <a href="#" class="mb-2 btn btn-primary rounded-circle btn-lg"
+                                       data-original-title="" title="" target="_blank">Discover more
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_showcase pt48 pb48 o_colored_level" data-vcss="002" data-snippet="s_showcase"
+                         data-name="Showcase" style="background-image: none;" data-original-title="" title=""
+                         aria-describedby="tooltip68020">
+                    <div class="container">
+                        <div class="row no-gutters s_col_no_resize s_col_no_bgcolor s_nb_column_fixed">
+                            <div class="col-lg text-lg-right">
+                                <div class="row">
+                                    <div class="col-lg-12 pt24 pb24 o_colored_level o_animate o_anim_bounce_in o_visible"
+                                         data-name="Block" style="">
+                                        <div class="s_showcase_title d-flex flex-lg-row-reverse mb-2">
+                                            <i class="s_showcase_icon fa fa-2x fa-desktop mr-3 mr-lg-0 ml-lg-3"
+                                               data-bs-original-title="" title="" aria-describedby="tooltip678039"
+                                               style="color: rgb(4, 100, 190) !important;"/>
+                                            <h3>Fast&amp;nbsp;&amp;nbsp;</h3>
+                                        </div>
+                                        <p style="text-align: right;">A short description of this great feature.</p>
+                                    </div>
+                                    <div class="col-lg-12 pt24 pb24 o_colored_level o_animate o_anim_fade_in_left o_visible"
+                                         data-name="Block" style="">
+                                        <div class="s_showcase_title d-flex flex-lg-row-reverse mb-2">
+                                            <i class="s_showcase_icon fa fa-paint-brush mr-3 mr-lg-0 ml-lg-3 fa-2x"
+                                               data-bs-original-title="" title="" aria-describedby="tooltip787038"
+                                               style="color: rgb(156, 0, 255) !important;"/>
+                                            <h3>Digital&amp;nbsp;&amp;nbsp;</h3>
+                                        </div>
+                                        <p style="text-align: right;">A short description of this great feature.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="w-50 h-100 border-right"/>
+                            </div>
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-lg-12 pt24 pb24 o_colored_level o_animate o_anim_fade_in_right o_visible"
+                                         data-name="Block" style="">
+                                        <div class="s_showcase_title d-flex mb-2">
+                                            <i class="s_showcase_icon fa fa-heart mr-3 fa-2x" data-bs-original-title=""
+                                               title="" aria-describedby="tooltip942281"
+                                               style="color: rgb(255, 0, 0) !important;"/>
+                                            <h3>&amp;nbsp; Sustainable</h3>
+                                        </div>
+                                        <p>A short description of this great feature.</p>
+                                    </div>
+                                    <div class="col-lg-12 pt24 pb24 o_colored_level o_animate o_anim_bounce_in o_visible"
+                                         data-name="Block" style="">
+                                        <div class="s_showcase_title d-flex mb-2">
+                                            <i class="s_showcase_icon fa fa-gift mr-3 fa-2x" data-bs-original-title=""
+                                               title="" aria-describedby="tooltip581476"
+                                               style="color: rgb(57, 123, 33) !important;"/>
+                                            <h3>&amp;nbsp; Secure</h3>
+                                        </div>
+                                        <p class="o_default_snippet_text">A short description of this great feature.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container text-lg-center" data-original-title="" title=""
+                         aria-describedby="tooltip332109">
+                        <p>
+                            <br/>
+                        </p>
+                        <a href="#" class="mb-2 btn btn-primary rounded-circle btn-lg" data-original-title="" title="">
+                            Discover all the features
+                        </a>
+                    </div>
+                </section>
+                <section
+                        class="s_parallax parallax bg-black-50 o_colored_level pt0 s_parallax_is_fixed s_parallax_no_overflow_hidden pb4"
+                        data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax"
+                        style="background-image: none;">
+                    <span class="s_parallax_bg oe_img_bg o_bg_img_center"
+                          style="background-image: url(&quot;/theme_cq/static/src/images/cover_home.jpg&quot;); background-position: 50% 100%;"
+                          data-original-id="525" data-original-src="/web/image/525-f6400343/cover_home.jpg"
+                          data-mimetype="image/jpeg" data-resize-width="1920" data-quality="100" data-gl-filter="custom"
+                          data-filter-options="{&quot;contrast&quot;:&quot;-30&quot;,&quot;brightness&quot;:&quot;40&quot;,&quot;sepia&quot;:&quot;0&quot;,&quot;blur&quot;:&quot;0&quot;}"/>
+                    <div class="o_we_bg_filter bg-black-50"/>
+                    <div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                        <section class="s_title o_colored_level pb0 o_cc o_cc3 pt0" data-vcss="001"
+                                 data-snippet="s_title" data-name="Title"
+                                 style="background-color: rgba(255, 0, 0, 0) !important; background-image: none;">
+                            <div class="s_allow_columns container">
+                                <h1 style="text-align: center; color:white">
+                                    <br/>
+                                    <strong>Our References
+                                    </strong>
+                                </h1>
+
+                            </div>
+
+                        </section>
+
+
+                        <section class="s_three_columns o_colored_level o_cc o_cc3 pt72 pb256" data-vcss="001"
+                                 data-snippet="s_three_columns" data-name="Columns"
+                                 style="background-color: rgba(255, 0, 0, 0) !important; background-image: none;"
+                                 data-original-title="" title="" aria-describedby="tooltip479960">
+                            <div class="container-fluid">
+                                <div class="row d-flex align-items-stretch">
+                                    <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_animate o_animate_on_scroll o_anim_zoom_in"
+                                         data-scroll-zone-start="0" data-scroll-zone-end="100"
+                                         style="animation-delay: -0.167533s;">
+                                        <strong>
+                                        </strong>
+                                        <div class="card bg-white h-100" style="">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/mikropor.png" alt="" loading="eager"
+                                                 data-original-title="" title="" aria-describedby="tooltip884446"
+                                                 style="width: 100% !important;" data-original-id="541"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Mikropor</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300">
+                                                        For more than 30 years, it has been producing Atmospheric Air
+                                                        Filters and Compressor Air Systems, based in Ankara, with over
+                                                        500 employees.
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_animate o_animate_on_scroll o_anim_zoom_in"
+                                         data-scroll-zone-start="0" data-scroll-zone-end="100"
+                                         style="animation-delay: -0.167533s;">
+                                        <div class="card bg-white h-100" style="">
+                                            <img class="card-img-top" src="/theme_cq/static/src/images/references/engie.png" alt=""
+                                                 loading="eager" style="" data-original-title="" title=""
+                                                 aria-describedby="tooltip616100" data-original-id="542"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Engie</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300;background-color: rgb(247, 249, 250)">
+                                                        Engie, a global energy company with over 150,000 employees, has
+                                                        been operating in Turkey for 40 years.​
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pb16 col-lg-3 pt16 o_animate o_animate_on_scroll o_anim_zoom_in"
+                                         data-scroll-zone-start="0" data-scroll-zone-end="100"
+                                         style="animation-delay: -0.167533s;">
+                                        <div class="card bg-white h-100" style="">
+                                            <img class="card-img-top o_we_image_cropped"
+                                                 src="/theme_cq/static/src/images/references/Aydin-Orme.jpg" alt=""
+                                                 data-original-title="" title="" aria-describedby="tooltip237647"
+                                                 data-original-id="545"
+                                                 data-original-src="/web/image/545-d3b5b3b8/Aydin-Orme.jpg"
+                                                 data-mimetype="image/jpeg" style="" data-x="108.16901408450704"
+                                                 data-y="63.098591549295776" data-width="427.2676056338028"
+                                                 data-height="228.3943661971831" data-scale-x="1" data-scale-y="1"
+                                                 data-aspect-ratio="0/0" loading="eager"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">Aydın Örme
+                                                    <br/>
+                                                </h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(47, 49, 51);font-size: 14px;font-weight: 300;background-color: rgb(247, 249, 250)">
+                                                        <span style="color: rgb(33, 37, 41);background-color: rgba(255, 255, 255, 0.9)">
+                                                            Aydın Örme has been operating in the fields of polyester
+                                                            yarn, home textile production and marketing and retailing
+                                                            for 28 years with an indoor area of 80.000 m² with over 500
+                                                            employees.</span>&amp;nbsp;
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_animate o_animate_on_scroll o_anim_zoom_in"
+                                         data-scroll-zone-start="0" data-scroll-zone-end="100"
+                                         style="animation-delay: -0.167533s;">
+                                        <div class="card bg-white h-100" style="">
+                                            <img class="card-img-top o_animating"
+                                                 src="/theme_cq/static/src/images/references/rd-global.png" alt="" loading="eager"
+                                                 data-original-title="" title="" aria-describedby="tooltip2629"
+                                                 style="width: 100% !important;" data-original-id="546"
+                                                 data-original-src="/web/image/546-ceb23c7d/rd%20global.png"
+                                                 data-mimetype="image/png"/>
+                                            <div class="card-body">
+                                                <h3 class="card-title" style="text-align: center;">RD Global</h3>
+                                                <p class="card-text" style="text-align: center;">
+                                                    <span style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        It carries out production and R&amp;amp;D studies on Medical
+                                                        Materials in a closed area of 5.000 m<span
+                                                            style="color: rgb(33, 37, 41);font-size: 14px;font-weight: 300;background-color: rgba(255, 255, 255, 0.9)">
+                                                        ²</span>.
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+    <!--    style="border:red solid 1px !important"-->
+</odoo>

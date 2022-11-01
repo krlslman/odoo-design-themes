@@ -1,0 +1,126 @@
+
+
+//++++++++++++++++++++++++++++++++++++NEW++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+$o-theme-h1-font-size-multiplier: (62 / 16);
+$o-theme-h2-font-size-multiplier: (44 / 16);
+$o-theme-h3-font-size-multiplier: (36 / 16);
+$o-theme-h4-font-size-multiplier: (24 / 16);
+$o-theme-h5-font-size-multiplier: (21 / 16);
+$o-theme-h6-font-size-multiplier: (18 / 16);
+
+$o-theme-headings-font-weight: 700;
+
+$o-theme-font-configs: (
+    'Inter': (
+        'family': ('Inter', serif),
+        'url': 'Inter:400,400i,600,600i,800,800i',
+    ),
+
+    'Nunito': (
+        'family': ('Nunito', serif),
+        'url': 'Nunito:300,300i,400,400i,700,700i',
+    ),
+
+    'Abril Fatface': (
+        'family': ('Nunito', serif),
+        'url': 'Abril+Fatface:300,300i,400,400i,700,700i',
+    ),
+);
+
+//------------------------------------------------------------------------------
+// Website customizations
+//------------------------------------------------------------------------------
+
+$o-color-palettes: (
+'codequarters-1': (
+            'o-color-1': #000000,
+            'o-color-2': #e4e4e4,
+            'o-color-3': #00459e,
+            'o-color-4': #ffffff,
+            'o-color-5': #444444,
+
+            'o-cc2-headings': 'o-color-4',
+            'o-cc2-link': 'o-color-4',
+            'o-cc2-btn-primary': 'o-color-4',
+
+            'o-cc4-headings': 'o-color-4',
+            'o-cc4-btn-primary': 'o-color-4',
+            'o-cc4-text': 'o-color-2',
+            'o-cc4-link': 'o-color-4',
+
+            'o-cc5-text': 'o-color-2',
+            'o-cc5-link': 'o-color-4',
+
+            'menu': 4,
+            'footer': 4,
+            'copyright': 4,
+        ),
+);
+
+$o-website-values-palettes: (
+    (
+        'color-palettes-name': 'codequarters-1',
+
+        'font': 'Inter',
+        'headings-font': 'Nunito',
+        'navbar-font': 'Nunito',
+        'buttons-font': 'Nunito',
+
+        'font-size-base': (14 / 16) * 1rem,
+        'header-font-size': (14 / 16) * 1rem,
+
+        'hamburger-type': 'off-canvas',
+        'menu-box-shadow': false,
+
+        'btn-ripple': true,
+
+        'btn-font-size': (14 / 16) * 1rem,
+        'btn-border-radius': 2px,
+
+        'btn-font-size-lg': (14 / 16) * 1rem,
+        'btn-padding-y-lg': 1rem,
+        'btn-padding-x-lg': (28 / 16) * 1rem,
+    ),
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'odoo-codequarters-1');
+
+$o-palette-priority-prefix: 'odoo-codequarters';
+$o-color-palettes-compatibility-indexes: (
+    1: 'codequarters-1',
+    2: 'generic-1',
+    3: 'generic-2',
+    4: 'generic-3',
+    5: 'generic-4',
+    6: 'generic-5',
+    7: 'generic-6',
+    8: 'generic-7',
+    9: 'generic-8',
+    10: 'generic-9',
+    11: 'generic-10',
+    12: 'generic-11',
+    13: 'generic-12',
+    14: 'generic-13',
+    15: 'generic-14',
+    16: 'generic-15',
+    17: 'generic-16',
+    18: 'generic-17',
+);
+
+/* Shapes : not included from odoo experts theme. */
+
+/*
+.o_header_standard {
+background-color: #ded;
+color:#000;
+}
+
+a,p,h1,h2,h3,h4,h5,h6 {
+    color: #50acf0 !important;
+}
+*/
